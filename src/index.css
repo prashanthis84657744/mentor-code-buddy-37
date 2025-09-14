@@ -17,11 +17,20 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 250 79% 66%; /* #667eea */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 248 53% 58%;
+    --secondary-foreground: 0 0% 100%;
+
+    --success: 134 61% 41%; /* #28a745 */
+    --success-foreground: 0 0% 100%;
+
+    --info: 200 98% 39%; /* #17a2b8 */
+    --info-foreground: 0 0% 100%;
+
+    --warning: 45 93% 47%; /* #ffc107 */
+    --warning-foreground: 222.2 84% 4.9%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -38,20 +47,21 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
+    /* CodeMentor AI specific colors */
+    --gradient-primary: linear-gradient(135deg, hsl(250, 79%, 66%), hsl(248, 53%, 58%));
+    --gradient-success: linear-gradient(135deg, hsl(134, 61%, 41%), hsl(164, 76%, 46%));
+    --error-bg: 0 93% 94%;
+    --error-border: 0 84% 60%;
+    --suggestion-bg: 200 100% 92%;
+    --suggestion-border: 200 98% 39%;
+
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
